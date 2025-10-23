@@ -1,5 +1,5 @@
 name: building
-on: workflow_dispatch
+on: [push,workflow_dispatch]
 jobs:
   testing:
     runs-on: ubuntu-latest
