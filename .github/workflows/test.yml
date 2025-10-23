@@ -7,7 +7,7 @@ jobs:
       - name: print
         run: echo "good morning Team"
   deloying:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       - name: deploying
         run: echo "good bye team!!"
